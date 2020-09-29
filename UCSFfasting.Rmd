@@ -1,0 +1,50 @@
+---
+title: "UCSF Fasting Study"
+author: "Dr. J"
+date: "October 2020"
+output:
+  html_document:
+    df_print: paged
+---
+
+This is an obesity study conducted by UCSF over a 16 week period. The study was a randomized design to determine if the 'fasting' diet was effective in weight loss. 116 obese adults were selected for the study, of which 45 are in the data set in this problem.   The treatment group (on the fasting diet) was restricted to eating only during an 8-hour "OK to eat" period, The control group was Asked to limit caloric intake, and was allowed to snack, eat at any time.
+
+Data from the study ate in the spreadsheet, 'FastingWtLoss.csv.  The study was published in 2020 --  https://www.ucsf.edu/news/2020/09/418611/time-restricted-eating-doesnt-work-weight-loss  
+
+The problem is to replicate the study; and answer this question, "Does the reduced data set come to the same conslusion as given in the paper?"
+
+The study hypotheses:
+$H-0$:  
+$H_A$:  
+  
+read in the data set, using read.csv  
+
+```{r}
+read.csv()
+```
+
+  
+  
+## variable analysis:  
+What type of variable is the response variable?  What type of variable is the explanatory variable.  What template do you use?
+
+## Graphiscal Data Summary  
+
+```{r}
+# put graphic display code here
+```
+
+
+
+## Numerical Data Summary
+
+
+
+## Inferential Analysis
+
+
+
+## Conclusions and recommendations:
+<!--  Does the fasting type diet work?  What do you recomment?  !--> 
+
+
