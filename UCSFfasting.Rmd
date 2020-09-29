@@ -63,6 +63,7 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 ```{r}
 #put numdrical summary code here
 ```
+
 ```{r}
 favstats(WtChg~Diet,data=WtLossData)
 ```
@@ -71,9 +72,12 @@ favstats(WtChg~Diet,data=WtLossData)
 
 ```{r}
 #put inferential data analysis code here
+t.test(WtChg~Diet,data=WtLossData)
 ```
 
 ## Conclusions and recommendations:
 <!--  Does the fasting type diet work?  What do you recomment?  !--> 
+
+The p-values is and this means
 
 
