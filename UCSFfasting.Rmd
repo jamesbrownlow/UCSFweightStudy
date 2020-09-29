@@ -40,11 +40,31 @@ What type of variable is the response variable?  What type of variable is the ex
 ```{r}
 # put graphic display code here
 ```
+## Now with ggplot - first select the basic data
+
+```{r}
+basicCN <- ggplot(WtLossData,aes(y=WtChg,x=Diet))
+```
+## Now add in boxplot
+
+```{r}
+basicCN + geom_boxplot()
+```
+  
+  
+### get fancy  
+
+```{r}
+basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
+```
 
 ## Numerical Data Summary  
 
 ```{r}
 #put numdrical summary code here
+```
+```{r}
+favstats(WtChg~Diet,data=WtLossData)
 ```
 
 ## Inferential Analysis
