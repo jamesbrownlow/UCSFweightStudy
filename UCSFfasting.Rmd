@@ -17,10 +17,17 @@ The study hypotheses:
 $H_0$:  
 $H_A$:  
   
+  
+```{r include=FALSE}
+require(tidyverse)
+require(tigerstats)
+require(knitr)
+```
+
 read in the data set 
 
 ```{r}
-#WtLossData = read.csv()
+WtLossData = read.csv('FastingWtLoss.csv')
 ```
 
   
