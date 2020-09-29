@@ -13,14 +13,14 @@ Data from the study ate in the spreadsheet, 'FastingWtLoss.csv.  The study was p
 
 The problem is to replicate the study; and answer this question, "Does the reduced data set come to the same conslusion as given in the paper?"
 
-The study hypotheses:
-$H-0$:  
+The study hypotheses:  
+$H_0$:  
 $H_A$:  
   
-read in the data set, using read.csv  
+read in the data set 
 
 ```{r}
-read.csv()
+#read.csv()
 ```
 
   
@@ -36,12 +36,18 @@ What type of variable is the response variable?  What type of variable is the ex
 
 
 
-## Numerical Data Summary
+## Numerical Data Summary  
 
 
+```{r}
+#put numdrical summary code here
+```
 
 ## Inferential Analysis
 
+```{r}
+#put inferential data analysis code here
+```
 
 
 ## Conclusions and recommendations:
